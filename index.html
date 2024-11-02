@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <div class="container">
+        <h1>Survey Form</h1>
+        <!-- Form -->
+         <form action="#" method="post">
+            <!--Name -->
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required>
+
+            <!-- Email -->
+             <label for="email">Email:</label>
+             <input type="email" name="email" id="email" required>
+
+             <!-- Password -->
+              <label for="password">Password:</label>
+              <input type="password" name="password" id="password" required>
+
+              <!--Birthday -->
+              <label for="birthday">Birthday</label>
+              <input type="date" name="date" id="date" required>
+
+              <!-- Phone Number -->
+               <label for="phone">Phone Number:</label>
+               <input type="tel" name="phone" id="phone" required>
+
+               <!-- Gender[Radio Button ]-->
+                <label>Gender:</label>
+                <div class="radio-group">
+                    <!-- Male -->
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+
+                    <!-- Female -->
+                    <input type="radio" name="gender" id="femle">
+                    <label for="female">Female</label>
+
+                    <!-- Others -->
+                    <input type="radio" name="gender" id="others">
+                    <label for="other">Others</label>
+                </div>
+                <!-- Interest[Check-Boxes] -->
+                 <label for="">Interests:</label>
+                 <div class="checkbox-group">
+                    <!-- Coding Checkbox -->
+                    <input type="checkbox" name="interests" id="coding">
+                    <label for="coding">Coding</label>
+
+                    <!--Music Checkbox  -->
+                    <input type="checkbox" name="interests" id="music">
+                    <label for="music">Music</label>
+
+                    <!--Sport Checkbox -->
+                    <input type="checkbox" name="interests" id="sport">
+                    <label for="sport">Sport</label>
+                 </div>
+
+                 <!-- Sumbit Button -->
+                  <input type="submit" value="Sumbit">
+                </form>
+                
+    </div>
+</body>
+</html>
